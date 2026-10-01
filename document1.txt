@@ -1,5 +1,5 @@
 def partition(l, r, nums):
-    # Branch3 : THis funchion has been updated on October 1. 2026.
+    # Branch4 : No issues found in test results
     for i in range(l, r):
         if nums[i] <= pivot:
             # Swapping values smaller than the pivot to the front
